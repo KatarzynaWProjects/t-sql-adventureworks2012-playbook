@@ -49,7 +49,10 @@ Praktyczne zapytania T-SQL na AdventureWorks2012: agregaty, GROUP BY/HAVING, fil
    - `product_queries.sql`
    - `sales_queries.sql`
    - `README.md`
-
+**Pliki zapytań:**
+- [customer_queries.sql](./queries/sql/customer_queries.sql)
+- [product_queries.sql](./queries/sql/product_queries.sql)
+- [sales_queries.sql](./queries/sql/sales_queries.sql)
 ---
 
 ## 📸 Przykład wyników
