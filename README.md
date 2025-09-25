@@ -44,9 +44,11 @@ Praktyczne zapytania T-SQL na AdventureWorks2012: agregaty, GROUP BY/HAVING, fil
 ---
 
 ##  Struktura repozytorium
-- `queries/` – pliki `.sql` z zapytaniami podzielonymi tematycznie (JOIN, GROUP BY, HAVING, agregaty).
-- `screenshots/` – zrzuty ekranu wyników w SSMS (opcjonalnie).
-- `README.md` – opis projektu.
+   - `queries/sql/` – pliki `.sql` z podziałem tematycznym:
+   - `customer_queries.sql`
+   - `product_queries.sql`
+   - `sales_queries.sql`
+   - `README.md`
 
 ---
 
