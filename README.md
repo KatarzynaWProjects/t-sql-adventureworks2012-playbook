@@ -50,9 +50,8 @@ Praktyczne zapytania T-SQL na AdventureWorks2012: agregaty, GROUP BY/HAVING, fil
 ---
 
 ## 📸 Przykład wyników
-```sql
+
 Poniżej zapytanie, które pokazuje klientów (imię i nazwisko) wraz z liczbą zamówień złożonych w latach 2012–2014. Wyświetlani są tylko ci klienci, którzy złożyli co najmniej 6 zamówień. Wyniki są posortowane malejąco według liczby zamówień:
 
---
 ![przykład](https://github.com/user-attachments/assets/9925e44c-765b-4f4a-bb15-4a23571f7139)
 
