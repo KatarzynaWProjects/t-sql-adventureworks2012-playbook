@@ -52,7 +52,7 @@ Praktyczne zapytania T-SQL na AdventureWorks2012: agregaty, GROUP BY/HAVING, fil
 
 ## 📸 Przykład wyników
 ```sql
-Poniżej zapytanie, które pokazuje klientów (imię i nazwisko) wraz z liczbą zamówień złożonych w latach 2012–2014. Wyświetlani są tylko ci klienci, którzy złożyli co najmniej 6 zamówień. Wyniki są posortowane malejąco według liczby zamówień:
+-- Poniżej zapytanie, które pokazuje klientów (imię i nazwisko) wraz z liczbą zamówień złożonych w latach 2012–2014. Wyświetlani są tylko ci klienci, którzy złożyli co najmniej 6 zamówień. Wyniki są posortowane malejąco według liczby zamówień:
 SELECT P.LastName, P.FirstName, COUNT(S.SalesOrderID) AS Total_sum
 FROM Sales.SalesOrderHeader AS S
 INNER JOIN Sales.Customer AS C ON C.CustomerID = S.CustomerID
