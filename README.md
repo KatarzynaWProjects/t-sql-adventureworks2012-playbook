@@ -51,7 +51,8 @@ Praktyczne zapytania T-SQL na AdventureWorks2012: agregaty, GROUP BY/HAVING, fil
    - `README.md`
 
 **Pliki zapytań:**
-- [customer_queries.sql](./queries/sql/customer_queries.sql)
+- [customer_queries.sql](t-sql-adventureworks2012-playbook/queries/.sql
+/customer_queries.sql)
 - [product_queries.sql](./queries/sql/product_queries.sql)
 - [sales_queries.sql](./queries/sql/sales_queries.sql)
 ---
