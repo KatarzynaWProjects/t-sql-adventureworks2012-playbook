@@ -63,3 +63,4 @@ WHERE S.OrderDate BETWEEN '2012-05-01' AND '2014-06-30'
 GROUP BY P.LastName, P.FirstName
 HAVING COUNT(S.SalesOrderID) >= 6
 ORDER BY Total_sum DESC;
+```
