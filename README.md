@@ -50,13 +50,6 @@ Praktyczne zapytania T-SQL na AdventureWorks2012: agregaty, GROUP BY/HAVING, fil
    - `sales_queries.sql`
    - `README.md`
 
-**Pliki zapytań:**
-- [customer_queries.sql](t-sql-adventureworks2012-playbook/queries/.sql
-/customer_queries.sql)
-- [product_queries.sql](./queries/sql/product_queries.sql)
-- [sales_queries.sql](./queries/sql/sales_queries.sql)
----
-
 ## 📸 Przykład wyników
 ```sql
 -- Poniżej zapytanie, które pokazuje klientów (imię i nazwisko) wraz z liczbą zamówień złożonych w latach 2012–2014. Wyświetlani są tylko ci klienci, którzy złożyli co najmniej 6 zamówień. Wyniki są posortowane malejąco według liczby zamówień:
