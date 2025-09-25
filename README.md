@@ -23,8 +23,8 @@ Praktyczne zapytania T-SQL na AdventureWorks2012: agregaty, GROUP BY/HAVING, fil
 ##  Zakres
 1. **Agregacje**  
    - Liczba rekordów z `COUNT(*)`.  
-   - Średnie koszty i ceny produktów (`AVG`, `MAX`).  
-
+   - Średnie koszty i ceny produktów (`AVG`, `MAX`).
+     
 2. **Filtrowanie i grupowanie**  
    - `WHERE` do filtrowania wierszy.  
    - `HAVING` do filtrowania wyników po agregacjach.  
@@ -39,7 +39,7 @@ Praktyczne zapytania T-SQL na AdventureWorks2012: agregaty, GROUP BY/HAVING, fil
    - Klienci z największą liczbą zamówień.  
    - Produkty zamawiane co najmniej 200 razy w danym roku.  
    - Sprzedaż wg terytoriów przekraczająca 10M USD.  
-
+   - Analiza relacji między wieloma tabelami i używanie kluczy obcych / głównych
 ---
 
 ##  Struktura repozytorium
@@ -51,4 +51,6 @@ Praktyczne zapytania T-SQL na AdventureWorks2012: agregaty, GROUP BY/HAVING, fil
 
 ## 📸 Przykład wyników
 ```sql
-Poniżej fragment rankingu produktów (2012) według łącznej liczby zamówionych sztuk:
+Poniżej zapytanie, które pokazuje klientów (imię i nazwisko) wraz z liczbą zamówień złożonych w latach 2012–2014. Wyświetlani są tylko ci klienci, którzy złożyli co najmniej 6 zamówień. Wyniki są posortowane malejąco według liczby zamówień:
+<img width="825" height="844" alt="image" src="https://github.com/user-attachments/assets/83291785-e158-4970-b4fa-d4f109ba4bd3" />
+
